@@ -1,14 +1,16 @@
 %define		plugin	check_ipmi_sensor_v3
+%include	/usr/lib/rpm/macros.perl
 Summary:	Monitoring plugin to check IPMI sensors
 Name:		nagios-plugin-%{plugin}
 Version:	3.12
-Release:	0.1
+Release:	0.2
 License:	GPL v3+
 Group:		Networking
 Source0:	https://github.com/thomas-krenn/check_ipmi_sensor_v3/archive/v%{version}/%{plugin}-%{version}.tar.gz
 # Source0-md5:	74fbfcc48bdbb6e4101f2fcaaea248a1
 Source1:	%{plugin}.cfg
 URL:		https://www.thomas-krenn.com/en/wiki/IPMI_Sensor_Monitoring_Plugin
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	rpmbuild(macros) >= 1.685
 Requires:	nagios-common >= 3.2.3-3
 BuildArch:	noarch
