@@ -3,7 +3,7 @@
 Summary:	Monitoring plugin to check IPMI sensors
 Name:		monitoring-plugin-%{plugin}
 Version:	3.12
-Release:	0.5
+Release:	1
 License:	GPL v3+
 Group:		Networking
 Source0:	https://github.com/thomas-krenn/check_ipmi_sensor_v3/archive/v%{version}/%{plugin}-%{version}.tar.gz
