@@ -12,6 +12,7 @@ Source1:	%{plugin}.cfg
 URL:		https://www.thomas-krenn.com/en/wiki/IPMI_Sensor_Monitoring_Plugin
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	rpmbuild(macros) >= 1.685
+Requires:	freeipmi
 Requires:	nagios-common >= 3.2.3-3
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
