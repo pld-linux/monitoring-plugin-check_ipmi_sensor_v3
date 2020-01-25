@@ -1,5 +1,4 @@
 %define		plugin	check_ipmi_sensor_v3
-%include	/usr/lib/rpm/macros.perl
 Summary:	Monitoring plugin to check IPMI sensors
 Name:		monitoring-plugin-%{plugin}
 Version:	3.12
